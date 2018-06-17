@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cattack</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<body>
+
+  <section class="main">
+    <h1>Cattack - Meow</h1>
+    <h4>Bagheera pawed <span id="attack-count"></span></h4>
+    <button button type="button" onclick="add();"><i class="fas fa-paw"></i> ATTACK</button>
+  </section>
+
+  <br><br>
+
+  <section class="upgrades">
+
+    <div>
+      <h4>Buy Auto Paws</h4>
+      <button button type="button" onclick="buyAutoClick();"><i class="fas fa-paw"></i></button>
+      <p>You need <span id="costAutoClick"></span> Paws</p>
+      <p>You own <span id="ammountAutoClick"></span> Auto Paws</p>
+    </div>
+
+    <br><br>
+
+    <div>
+      <h4>Bagheer's Friends</h4>
+      <button button type="button" onclick="buyAutoCat();"><i class="fab fa-github-alt"></i></button>
+      <p>You need <span id="costAutoCat"></span> Paws</p>
+      <p>You own <span id="ammountAutoCat"></span> cats!</p>
+    </div>
+
+    <br><br>
+
+  </section>
+
+  <section class="rewards">
+    <div>
+      <h4>Insects</h4>
+      <button button type="button" onclick="catchFly();">Catch A Fly</button>
+      <p>You need <span id="costFly"></span> Paws</p>
+      <p>Bagheera caught <span id="ammountFly"></span> flies!</p>
+    </div>
+
+    <br><br>
+
+    <div>
+      <h4>Reptiles</h4>
+      <button button type="button" onclick="catchLizard();">Catch A Lizard</button>
+      <p>You need <span id="costLizard"></span> Paws</p>
+      <p>Bagheera caught <span id="ammountLizard"></span> lizards!</p>
+    </div>
+
+    <br><br>
+
+    <div>
+      <h4>Rats</h4>
+      <button button type="button" onclick="catchRat();">Catch A Rat</button>
+      <p>You need <span id="costRat"></span> Paws</p>
+      <p>Bagheera caught <span id="ammountRat"></span> rats!</p>
+    </div>
+
+    <br><br>
+
+    <div>
+      <h4>Danger</h4>
+      <button button type="button" onclick="catchSnake();">CATCH A SNAKE!</button>
+      <p>You need <span id="costSnake"></span> Paws</p>
+      <p>Bagheera caught <span id="ammountSnake"></span> SNAKES!</p>
+    </div>
+
+  </section>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

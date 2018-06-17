@@ -1,0 +1,40 @@
+body {
+  background-position: center;
+  background-image: url("bagheera.jpg");
+  background-repeat: no-repeat;
+  background-size: 800px 1066px;
+  /* background-size: contain; */
+  margin: auto;
+  text-align: center;
+  /* color: brown; */
+}
+
+h1 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 25px;
+  margin: 0;
+}
+p {
+  margin: 0;
+
+}
+
+/*.upgrades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}*/
+
+button {
+  border-color: black;
+  border-radius: 5px;
+  background-color: red;
+  font-size: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+}
