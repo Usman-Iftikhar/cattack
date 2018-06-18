@@ -8,72 +8,59 @@
 </head>
 <body>
 
-  <section class="main">
-    <h1>Cattack - Meow</h1>
-    <h4>Bagheera pawed <span id="attack-count"></span></h4>
-    <button button type="button" onclick="add();"><i class="fas fa-paw"></i> ATTACK</button>
-  </section>
+  <div class="wrapper">
+    <section class="boxes">
+      <div class="box2" id="upgrade">
+        <h1> UPGRADE PAWS</h1>
+        <h4>Buy Auto Paws</h4>
+        <button button type="button" onclick="buyAutoClick();"><i class="fas fa-paw"></i></button>
+        <p>You need <span id="costAutoClick"></span> Paws</p>
+        <p>You own <span id="ammountAutoClick"></span> Auto Paws</p>
 
-  <br><br>
+        <br>
 
-  <section class="upgrades">
+        <h4>Bagheer's Friends</h4>
+        <button button type="button" onclick="buyAutoCat();"><i class="fab fa-github-alt"></i></button>
+        <p>You need <span id="costAutoCat"></span> Paws</p>
+        <p>You own <span id="ammountAutoCat"></span> cats!</p>
+      </div>
 
-    <div>
-      <h4>Buy Auto Paws</h4>
-      <button button type="button" onclick="buyAutoClick();"><i class="fas fa-paw"></i></button>
-      <p>You need <span id="costAutoClick"></span> Paws</p>
-      <p>You own <span id="ammountAutoClick"></span> Auto Paws</p>
-    </div>
+      <div class="box1" id="main">
+        <h1>CATTACK - MEOW</h1>
+        <h4>Bagheera pawed <span id="attack-count"></span></h4>
+        <button button type="button" onclick="add();"><i class="fas fa-paw"></i> ATTACK</button>
+      </div>
 
-    <br><br>
+      <div class="box3" id="hunt">
+        <h1>PAWED</h1>
+        <h4>Insects</h4>
+        <button button type="button" onclick="catchFly();">Catch A Fly</button>
+        <p>You need <span id="costFly"></span> Paws</p>
+        <p>Bagheera caught <span id="ammountFly"></span> flies!</p>
 
-    <div>
-      <h4>Bagheer's Friends</h4>
-      <button button type="button" onclick="buyAutoCat();"><i class="fab fa-github-alt"></i></button>
-      <p>You need <span id="costAutoCat"></span> Paws</p>
-      <p>You own <span id="ammountAutoCat"></span> cats!</p>
-    </div>
+        <br>
 
-    <br><br>
+        <h4>Reptiles</h4>
+        <button button type="button" onclick="catchLizard();">Catch A Lizard</button>
+        <p>You need <span id="costLizard"></span> Paws</p>
+        <p>Bagheera caught <span id="ammountLizard"></span> lizards!</p>
 
-  </section>
+        <br>
 
-  <section class="rewards">
-    <div>
-      <h4>Insects</h4>
-      <button button type="button" onclick="catchFly();">Catch A Fly</button>
-      <p>You need <span id="costFly"></span> Paws</p>
-      <p>Bagheera caught <span id="ammountFly"></span> flies!</p>
-    </div>
+        <h4>Rats</h4>
+        <button button type="button" onclick="catchRat();">Catch A Rat</button>
+        <p>You need <span id="costRat"></span> Paws</p>
+        <p>Bagheera caught <span id="ammountRat"></span> rats!</p>
 
-    <br><br>
+        <br>
 
-    <div>
-      <h4>Reptiles</h4>
-      <button button type="button" onclick="catchLizard();">Catch A Lizard</button>
-      <p>You need <span id="costLizard"></span> Paws</p>
-      <p>Bagheera caught <span id="ammountLizard"></span> lizards!</p>
-    </div>
-
-    <br><br>
-
-    <div>
-      <h4>Rats</h4>
-      <button button type="button" onclick="catchRat();">Catch A Rat</button>
-      <p>You need <span id="costRat"></span> Paws</p>
-      <p>Bagheera caught <span id="ammountRat"></span> rats!</p>
-    </div>
-
-    <br><br>
-
-    <div>
-      <h4>Danger</h4>
-      <button button type="button" onclick="catchSnake();">CATCH A SNAKE!</button>
-      <p>You need <span id="costSnake"></span> Paws</p>
-      <p>Bagheera caught <span id="ammountSnake"></span> SNAKES!</p>
-    </div>
-
-  </section>
+        <h4>Dangerous Reptiles</h4>
+        <button button type="button" onclick="catchSnake();">CATCH A SNAKE!</button>
+        <p>You need <span id="costSnake"></span> Paws</p>
+        <p>Bagheera caught <span id="ammountSnake"></span> SNAKES!</p>
+      </div>
+    </section>
+  </div>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="./script.js"></script>

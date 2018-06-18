@@ -1,12 +1,23 @@
 body {
-  background-position: center;
-  background-image: url("bagheera.jpg");
-  background-repeat: no-repeat;
-  background-size: 800px 1066px;
-  /* background-size: contain; */
-  margin: auto;
+  background-color: lightgray;
   text-align: center;
-  /* color: brown; */
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+
+#main {
+  background-image: url("bagheera.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: red;
 }
 
 h1 {
@@ -18,15 +29,8 @@ h4 {
 }
 p {
   margin: 0;
-
+  font-size: 20px
 }
-
-/*.upgrades {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: right;
-}*/
 
 button {
   border-color: black;
@@ -37,4 +41,5 @@ button {
 
 button:hover {
   cursor: pointer;
+  background-color: white;
 }
