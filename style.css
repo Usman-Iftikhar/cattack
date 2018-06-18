@@ -1,0 +1,45 @@
+body {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+
+#main {
+  background-image: url("bagheera.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+h1 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 25px;
+  margin: 0;
+}
+p {
+  margin: 0;
+  font-size: 20px
+}
+
+button {
+  border-color: black;
+  border-radius: 5px;
+  background-color: red;
+  font-size: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+}
